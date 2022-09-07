@@ -319,7 +319,6 @@ class PagewiseState<T> extends State<Pagewise<T>> {
         Icons.refresh,
         color: Colors.white,
       ),
-      shape: CircleBorder(),
       onPressed: this._effectiveController!.retry,
     );
 
